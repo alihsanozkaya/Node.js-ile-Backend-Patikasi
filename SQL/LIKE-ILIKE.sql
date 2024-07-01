@@ -17,4 +17,3 @@
 -- SELECT * FROM customer WHERE first_name LIKE 'J_an';
 
 -- SELECT * FROM customer WHERE first_name LIKE 'J_';
-
