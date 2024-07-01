@@ -10,4 +10,4 @@
 
 -- SELECT * FROM film WHERE length IN(40, 50, 60); -- WHERE length = 40 OR length = 50 OR length = 60
 
-SELECT * FROM film WHERE replacement_cost NOT IN (10.99, 12.99, 16.99);
+-- SELECT * FROM film WHERE replacement_cost NOT IN (10.99, 12.99, 16.99);

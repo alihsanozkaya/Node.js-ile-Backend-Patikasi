@@ -30,7 +30,4 @@
 
 -- SELECT * FROM film WHERE NOT length > 110;
 
-SELECT * FROM actor WHERE first_name = 'Penelope' AND last_name = 'Monroe' OR first_name = 'Joe';
-
-
-
+-- SELECT * FROM actor WHERE first_name = 'Penelope' AND last_name = 'Monroe' OR first_name = 'Joe';
