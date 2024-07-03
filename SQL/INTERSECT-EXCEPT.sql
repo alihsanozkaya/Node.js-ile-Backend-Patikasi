@@ -1,0 +1,3 @@
+-- (SELECT * FROM book ORDER BY page_number DESC LIMIT 10)
+-- INTERSECT
+-- (SELECT * FROM book ORDER BY title LIMIT 10);
