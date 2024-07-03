@@ -1,0 +1,77 @@
+-- CREATE TABLE test (
+--	real_type REAL,
+--	double_type DOUBLE PRECISION,
+--	numeric_type NUMERIC
+-- );
+
+-- INSERT INTO test
+-- VALUES (1.12345678912345678912, 1.12345678912345678912, 1.12345678912345678912);
+
+-- SELECT * FROM test2;
+
+-- CREATE TABLE test2 (
+--	float4_type FLOAT4,
+--	float8_type FLOAT8,
+--	decimal_type DECIMAL
+-- );
+
+-- INSERT INTO test2
+-- VALUES (1.12345678912345678912, 1.12345678912345678912, 1.12345678912345678912);
+
+-- SELECT (10 + 2);
+
+-- SELECT (10.0::INTEGER);
+
+-- SELECT (10.444444444444444444444::INTEGER);
+
+-- SELECT (10.444444444444444444444::REAL);
+
+-- SELECT (10.444444444444444444444::DOUBLE PRECISION);
+
+-- SELECT (10.444444444444444444444::NUMERIC);
+
+-- SELECT ('Lorem'::CHAR(10));
+
+-- SELECT ('Lorem ipsum dolor sit amet'::CHAR(10));
+
+-- SELECT ('Lorem'::VARCHAR(10));
+
+-- SELECT ('Lorem ipsum dolor sit amet'::VARCHAR(10));
+
+-- SELECT ('Lorem ipsum dolor sit amet'::VARCHAR);
+
+-- SELECT ('Lorem'::TEXT);
+
+-- SELECT ('Lorem ipsum dolor sit amet'::TEXT);
+
+-- SELECT (true, 'yes', 't', 1); TRUE
+
+-- SELECT (false, 'no', 'f', 0); FALSE
+
+-- SELECT ('no'::BOOLEAN);
+
+-- SELECT (1::BOOLEAN);
+
+-- SELECT ('f'::BOOLEAN);
+
+-- SELECT (NULL::BOOLEAN);
+
+-- SELECT ('2000-10-25'::DATE);
+
+-- SELECT ('OCT-25-2000'::DATE);
+
+-- SELECT ('OCT 25 2000'::DATE);
+
+-- SELECT ('2000 October 25'::DATE);
+
+-- SELECT ('03:44'::TIME);
+
+-- SELECT ('03:44 AM'::TIME);
+
+-- SELECT ('03:44 PM'::TIME);
+
+-- SELECT ('03:44:11'::TIME);
+
+-- SELECT ('02:16'::TIME WITH TIME ZONE);
+
+-- SELECT ('2000 October 25 02:17:12'::TIMESTAMP);

@@ -4,7 +4,7 @@
 --	last_name VARCHAR(50) NOT NULL,
 --	email VARCHAR(100),
 --	birthday DATE
---);
+-- );
 
 -- INSERT INTO author (first_name, last_name, email, birthday)
 --	VALUES 
