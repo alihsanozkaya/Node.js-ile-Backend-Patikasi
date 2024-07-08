@@ -6,7 +6,7 @@ const posts = [
 
 function postList() {
     posts.map((post) => {
-        console.log(post.description);
+        console.log(post);
     })
 };
 
