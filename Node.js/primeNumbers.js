@@ -1,6 +1,6 @@
 //  1 e ve kendisine bölünen, 1 den büyük pozitif tam sayıdır.
 
-const arguments = process.argv.slice(2);
+// const arguments = process.argv.slice(2)
 
 function showPrimeNumbers(lowNumber, highNumber) {
     console.log(`${lowNumber} - ${highNumber} arasındaki asal sayılar`);
@@ -17,4 +17,6 @@ function showPrimeNumbers(lowNumber, highNumber) {
     }
 }
 
-showPrimeNumbers(arguments[0] * 1, arguments[1] * 1);
+// showPrimeNumbers(arguments[0] * 1, arguments[1] * 1);
+
+exports.showPrimeNumbers  = showPrimeNumbers;
