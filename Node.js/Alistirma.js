@@ -33,15 +33,15 @@ function updateData(receivedData) {
 //   });
 
 async function asyncData(){
-    try {
-        const receivedData = await getData(true);
-        console.log(receivedData);
-    
-        const updatedData = await updateData(false);
-        console.log(updatedData);
-    } catch (error) {
-        console.log(error);
-    }  
+  try {
+      const receivedData = await getData(true);
+      console.log(receivedData);
+
+      const updatedData = await updateData(false);
+      console.log(updatedData);
+  } catch (error) {
+      console.log(error);
+  }  
 }; 
 
 asyncData();
