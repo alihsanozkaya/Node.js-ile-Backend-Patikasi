@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihsanozkaya/Node.js-ile-Backend-Patikasi.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alihsanozkaya/Node.js-ile-Backend-Patikasi/issues"
+  },
+  "homepage": "https://github.com/alihsanozkaya/Node.js-ile-Backend-Patikasi#readme",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
