@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     console.log("Server Başlatıldı.");
 
     const url = req.url;
-    if (url === '/index') {
+    if (url === '/') {
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.write('<h2>Index sayfasina hosgeldiniz</h2>');
     } else if (url === '/hakkimda') {
