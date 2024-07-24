@@ -1,0 +1,109 @@
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (pcat)
+version: (1.0.0)                                                                                                                    
+description: PCAT Photo App                                                                                                         
+entry point: (index.js) app.js                                                                                                      
+test command:                                                                                                                       
+git repository: https://github.com/alihsanozkaya/PCAT.git
+keywords: photo app camera
+author: Ali İhsan Özkaya                                                                                                            
+license: (ISC)                                                                                                                      
+About to write to C:\Users\alihs\Desktop\Yazilim\PCAT\package.json:
+
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "PCAT Photo App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alihsanozkaya/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "Ali İhsan Özkaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alihsanozkaya/PCAT/issues"
+  },
+  "homepage": "https://github.com/alihsanozkaya/PCAT#readme"
+}
+
+
+Is this OK? (yes) y
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> npm install prettier -D --save-exact
+
+added 1 package, and audited 2 packages in 2s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .prettierrc
+        app.js
+        package-lock.json
+        package.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> git add .
+warning: in the working copy of '.prettierrc', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> git commit -m "Workspace created"
+[main 367d22c] Workspace created
+ 6 files changed, 213 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 .prettierrc
+ create mode 100644 app.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 2.28 KiB | 2.28 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/alihsanozkaya/PCAT.git
+   c9f69ab..367d22c  main -> main
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> npm i express --save
+
+added 64 packages, and audited 66 packages in 4s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> node app
+Sunucu 3000 portunda başlatıldı...
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> node app
+Sunucu 3000 portunda başlatıldı...
+PS C:\Users\alihs\Desktop\Yazilim\PCAT> npm install --save-dev nodemon
